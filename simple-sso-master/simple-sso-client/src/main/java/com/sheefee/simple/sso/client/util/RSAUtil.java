@@ -14,6 +14,7 @@ import org.apache.commons.codec.binary.Base64;
  *
  */
 public class RSAUtil {
+
 	private static Key PRIVATE_KEY;
 	private static Key PUBLIC_KEY;
 
