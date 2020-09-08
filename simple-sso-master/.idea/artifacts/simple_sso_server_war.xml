@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="simple-sso-server:war">
+    <output-path>$PROJECT_DIR$/simple-sso-server/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>simple-sso-server</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="simple-sso-server.war">
+      <element id="artifact" artifact-name="simple-sso-server:war exploded" />
+    </root>
+  </artifact>
+</component>
