@@ -14,7 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="simple-sso" target="1.5" />
-      <module name="simple-sso-client" target="1.5" />
+      <module name="simple-sso-client" target="6" />
       <module name="simple-sso-server" target="1.5" />
       <module name="simple-sso-subsysa" target="1.5" />
       <module name="simple-sso-subsysb" target="1.5" />

@@ -22,10 +22,8 @@ import com.sheefee.simple.sso.client.storage.SessionStorage;
 public class LoginFilter implements Filter {
 	private FilterConfig config;
 
-	@Override
 	public void destroy() {}
 
-	@Override
 	public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
 		HttpServletRequest request = (HttpServletRequest) req;
 		HttpServletResponse response = (HttpServletResponse) res;
